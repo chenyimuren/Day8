@@ -1,0 +1,65 @@
+/* app/pages/index/index.wxss */
+
+.top-bar {
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: #00b7ef;
+  color: #fff;
+  font-size: 36rpx;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+.top-bar .login,.top-bar .back{
+  width: 100rpx;
+  font-size: 32rpx;
+}
+.top-bar .title{
+  flex: 1;
+}
+
+.end{
+ margin-left: 25%;
+}
+
+.lie{
+  display: flex;
+  width: 100%;
+  /* height: 90rpx; */
+  position: relative;
+ 
+}
+.lie ul{
+    /* list-style: none; */
+    margin: 0;
+    padding: 0;
+}
+.lie ul:after{
+      content: "";
+			display: block;
+			clear: both;
+}
+.lie ul li {
+				width: 150rpx;
+				float: left;
+				list-style: none;
+				text-align: center;
+			}
+
+.lie ul li image {
+
+				width: 90rpx;
+				height: 90rpx;
+        
+				padding-top:100rpx ;
+			}
+.biao{
+  font-size: 20rpx;
+  /* width: 90rpx;
+  height: 90rpx; */
+  text-align: center;
+
+}
